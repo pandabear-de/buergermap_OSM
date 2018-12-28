@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Projekt Bürgerkarte</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v5.3.0/css/ol.css" type="text/css">
+    <style>
+      #map {
+        width: 800px;
+        height: 600px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Projekt - Bürgerkarte Karben</h1>
+    <div id="map" class="map"></div>
+    <div id="mouse-position"></div>
+<!--     <form>
+      <label>cluster distance</label>
+      <input id="distance" type="range" min="0" max="100" step="1" value="40"/>
+    </form> -->
+    <script src="./index.js"></script>
+    <div>
+      grün = Müllereimer, rot = Kotbeutelspender
+    </div>
+    <br>
+    <br>
+    <br>
+    <H2>Mappen direkt in OpenStreetMap</H2>
+    <ol>
+      <li>Konto in <a href="https://www.openstreetmap.org/#map=14/50.2342/8.7734" target=_blank>OpenStreetMap.org</a> anlegen und dann einloggen</li>
+      <li>Karben (die Stelle) auf der Karte heraussuchen und Bearbeiten auswählen</li>
+      <li>Einen 'Punkt' an die richtige Stelle anbringen und als Objekttyp in der Suchmaske oben 'Hundekottütenspender' auswählen</li>
+      <li>Speichern</li>
+    </ol>
+    <br>
+    <br>
+    <br>
+    <H2>Entwicklungsstand</H2>
+    <h3>Version 28.12.2018</h3>
+    <p>initiale Version</p>
+    <ul>
+      <li>Zentrierung auf Karben und anzeige Hundekotbeutelspender und Mülltonnen als farbige Punkte</li>
+    </ul>
+    <p>bekannte schwächen</p>
+    <ul>
+      <li>z.B. beim KK Friedhof wird der HKS von dem Punkt der Mülltonne verdeckt. Nur bei enstsprechendem Zoom-Faktor zu sehen</li>
+    </ul>
+    <H2>Feature Pipeline</H2>
+    <p>Prio hoch</p>
+    <ul>
+      <li>Aufbau einer Test und Produktionsumgebung</li>
+
+    </ul>
+    <p>Prio mittel</p>
+    <ul>
+      <li>anzeige von richtigen Icons</li>
+      <li>Gruppierung von cluster</li>
+      <li>Zentrierung der Karte auf Standort</li>
+      <li>Anzeige der Geokoordinaten des Mauszeigers auf der Karte</li>
+      <li>Meldemöglichkeit für neue Mappings</li>
+      <li>Umstellen des Repositories auf Github</li>
+      <li>Prüfen ob Containererstellung möglich ist</li>
+
+    </ul>
+    <p>Prio low</p>
+    <ul>
+      <li>...</li>
+    </ul>
+    <br><br>
+    Feedback an public{at}cameloteast.de
+  </body>
+</html>
