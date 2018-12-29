@@ -105,7 +105,7 @@
         view: new View({
           center: karbenWebMercator,
           maxZoom: 19,
-          zoom: 14,
+          zoom: 13,
           minZoom: 12
         })
       });
