@@ -110,13 +110,13 @@
         })
       });
 
-      var projectionSelect = document.getElementById('projection');
-      projectionSelect.addEventListener('change', function(event) {
-        mousePositionControl.setProjection(event.target.value);
-      });
+      // var projectionSelect = document.getElementById('projection');
+      // projectionSelect.addEventListener('change', function(event) {
+      //   mousePositionControl.setProjection(event.target.value);
+      // });
 
-      var precisionInput = document.getElementById('precision');
-      precisionInput.addEventListener('change', function(event) {
-        var format = createStringXY(event.target.valueAsNumber);
-        mousePositionControl.setCoordinateFormat(format);
-      });
+      // var precisionInput = document.getElementById('precision');
+      // precisionInput.addEventListener('change', function(event) {
+      //   var format = createStringXY(event.target.valueAsNumber);
+      //   mousePositionControl.setCoordinateFormat(format);
+      // });
