@@ -7,6 +7,10 @@ Project to visualize local specific features contained within the OpenStreetMap 
 # Attribution / Main sorce of code ideas
 https://openlayers.org/
 
+# Services used
+http://overpass-turbo.eu
+https://www.openstreetmap.org/
+
 # Hardware / VM
 - f1-micro (1 vCPU, 0,6 GB Speicherplatz) 
 - HTTP firewall rule enabled
