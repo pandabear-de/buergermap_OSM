@@ -1,10 +1,8 @@
 {
   "name": "buergermap",
-  "version": "1.0.2",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "Jakob Moehs public@cameloteast.de",
-  "license": "ISC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
@@ -14,15 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/pandabear-de/buergermap_OSM.git"
   },
+  "author": "Jakob Moehs public@cameloteast.de",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pandabear-de/buergermap_OSM/issues"
+  },
+  "homepage": "https://github.com/pandabear-de/buergermap_OSM#readme",
   "dependencies": {
     "ol": "^5.3.0"
   },
   "devDependencies": {
     "parcel-bundler": "^1.11.0"
-
-  },
-    "bugs": {
-    "url": "https://github.com/pandabear-de/buergermap_OSM/issues"
-  },
-  "homepage": "https://github.com/pandabear-de/buergermap_OSM#readme"
+  }
 }

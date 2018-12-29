@@ -17,7 +17,7 @@
       var map = null;
 
       var mousePositionControl = new MousePosition({
-        coordinateFormat: createStringXY(4),
+        coordinateFormat: createStringXY(5),
         projection: 'EPSG:4326',
         // comment the following two lines to have the mouse position
         // be placed within the map.
@@ -96,7 +96,7 @@
       });
 
       map = new Map({
-        controls: defaultControls().extend([mousePositionControl]),
+        //controls: defaultControls().extend([mousePositionControl]),
         layers: [raster, vector],
         target: document.getElementById('map'),
         view: new View({
