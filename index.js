@@ -10,6 +10,7 @@
       import {fromLonLat} from 'ol/proj';
       import MousePosition from 'ol/control/MousePosition.js';
       import {createStringXY} from 'ol/coordinate.js';
+      import {defaults as defaultControls} from 'ol/control.js';
 
 
       const karbenLonLat = [8.7753, 50.2278];
