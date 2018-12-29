@@ -18,6 +18,7 @@
 
       var map = null;
 
+
       var mousePositionControl = new MousePosition({
         coordinateFormat: createStringXY(5),
         projection: 'EPSG:4326',
