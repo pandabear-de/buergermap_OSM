@@ -11,6 +11,9 @@
       import MousePosition from 'ol/control/MousePosition.js';
       import {createStringXY} from 'ol/coordinate.js';
 
+      src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"
+      src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"
+
       const karbenLonLat = [8.7753, 50.2278];
       const karbenWebMercator = fromLonLat(karbenLonLat);
 
