@@ -47,26 +47,26 @@ nano package.json
   }
 ```
 
-#To start test
+# To start test
 ```
 cd <project name>
 npm start
 ```
 >> a port is provided (e.g. localhost:1234) if successfull. connect to it to test your first result
 
-#Create a production version
+# Create a production version
 ```
 cd <project name>
 npm run-script build
 sudo cp dist/* /var/www/html/
 ```
 
-#to pull from git
+# to pull from git
 ```
 cd <project name>
 git pull https://github.com/pandabear-de/buergermap_OSM.git
 ```
-#to start, stop, restart, status apache2
+# to start, stop, restart, status apache2
 ```
 sudo systemctl start apache2.service
 sudo systemctl stop apache2.service
