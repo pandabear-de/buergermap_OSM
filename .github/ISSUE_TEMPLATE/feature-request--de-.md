@@ -1,6 +1,6 @@
 ---
 name: Feature request [de]
-about: Verbesserungsvorschlag / Suggest an idea for this project
+about: Verbesserungsvorschlag
 title: ''
 labels: ''
 assignees: ''
