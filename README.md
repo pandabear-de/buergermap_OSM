@@ -13,6 +13,7 @@ Project to visualize local specific features contained within the OpenStreetMap 
 
 sudo apt-get install curl
 ```
+sudo apt-get update && sudo apt-get install apache2 -y
 curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
 sudo apt install nodejs
 sudo apt-get install build-essential nodejs
