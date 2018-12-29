@@ -11,8 +11,6 @@
       import MousePosition from 'ol/control/MousePosition.js';
       import {createStringXY} from 'ol/coordinate.js';
 
-      //import from "https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"
-      //import from "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/1.3.3/FileSaver.min.js"
 
       const karbenLonLat = [8.7753, 50.2278];
       const karbenWebMercator = fromLonLat(karbenLonLat);
@@ -119,18 +117,4 @@
       precisionInput.addEventListener('change', function(event) {
         var format = createStringXY(event.target.valueAsNumber);
         mousePositionControl.setCoordinateFormat(format);
-      });
-
-      document.getElementById('export-png').addEventListener('click', function() {
-        map.once('rendercomplete', function(event) {
-          var canvas = event.context.canvas;
-          if (navigator.msSaveBlob) {
-            navigator.msSaveBlob(canvas.msToBlob(), 'map.png');
-          } else {
-            canvas.toBlob(function(blob) {
-              saveAs(blob, 'map.png');
-            });
-          }
-        });
-        map.renderSync();
       });
