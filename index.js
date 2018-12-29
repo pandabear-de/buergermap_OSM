@@ -117,3 +117,17 @@
         var format = createStringXY(event.target.valueAsNumber);
         mousePositionControl.setCoordinateFormat(format);
       });
+
+      document.getElementById('export-png').addEventListener('click', function() {
+        map.once('rendercomplete', function(event) {
+          var canvas = event.context.canvas;
+          if (navigator.msSaveBlob) {
+            navigator.msSaveBlob(canvas.msToBlob(), 'map.png');
+          } else {
+            canvas.toBlob(function(blob) {
+              saveAs(blob, 'map.png');
+            });
+          }
+        });
+        map.renderSync();
+      });
