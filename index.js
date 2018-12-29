@@ -96,8 +96,8 @@
         })
       });
 
-      map = new Map({
-        //controls: defaultControls().extend([mousePositionControl]),
+      var map = new Map({
+        controls: defaultControls().extend([mousePositionControl]),
         layers: [raster, vector],
         target: document.getElementById('map'),
         view: new View({
