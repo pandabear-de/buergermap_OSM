@@ -1,5 +1,8 @@
 # buergermap_OSM
-Project to visualize local specific features contained within the OpenStreetMap database based on the OSM map.
+Project to visualize local specific features contained within the OpenStreetMap database based on the OSM map. Site should be easy to use and also work on mobile devices centering around current location. Additionally the user should be able to select/deselect features to be shown/hidden on map.
+
+Use case example:
+Dog owner would like to see the next location of a garbage bin for the excrement bag.
 
 ## Current version 29.12.2019
 - MVP shows the OSM map for Karben with a green dot for garbage cans and a red dot for OSM tag vending:excrement_bags
