@@ -70,3 +70,4 @@ Enhancement suggestions are tracked as [GitHub issues](https://guides.github.com
     * :shirt: `:shirt:` when removing linter warnings
     
  
+ (source: https://github.com/atom/atom/blob/master/CONTRIBUTING.md)
