@@ -4,6 +4,9 @@ Project to visualize local specific features contained within the OpenStreetMap 
 ## Current version 29.12.2019
 - MVP shows the OSM map for Karben with a green dot for garbage cans and a red dot for OSM tag vending:excrement_bags
 
+# Attribution / Main sorce of code ideas
+https://openlayers.org/
+
 # Hardware / VM
 - f1-micro (1 vCPU, 0,6 GB Speicherplatz) 
 - HTTP firewall rule enabled
